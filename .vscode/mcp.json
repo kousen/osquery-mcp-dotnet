@@ -1,0 +1,15 @@
+{
+	"servers": {
+		"osquery-csharp": {
+			"type": "stdio",
+			"command": "dotnet",
+			"args": [
+				"run",
+				"--project",
+				"${workspaceFolder}/src/OsqueryMcp.Server/OsqueryMcp.Server.csproj",
+				"--no-build"
+			]
+		}
+	},
+	"inputs": []
+}

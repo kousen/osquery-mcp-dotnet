@@ -1,0 +1,35 @@
+## Build results
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+artifacts/
+
+## Visual Studio and VS Code user state
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+.vscode/*.log
+
+## Test results and coverage
+[Tt]est[Rr]esult*/
+coverage/
+*.coverage
+*.coveragexml
+
+## NuGet
+*.nupkg
+*.snupkg
+packages/
+
+## Operating system files
+.DS_Store
+Thumbs.db
+
+## Local environment and secrets
+.env
+.env.*
+!.env.example
+appsettings.*.local.json
